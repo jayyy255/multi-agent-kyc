@@ -1,0 +1,11 @@
+{
+  "document_id": "doc-addr-002",
+  "filename": "utility_bill_electricity.pdf",
+  "content_type": "application/pdf",
+  "document_type": "proof_of_address",
+  "document_text": "METROPOLITAN ELECTRIC & GAS UTILITY\nMonthly Billing Statement\nAccount Number: 8492-3021-99\nStatement Date: 2026-08-15\nDue Date: 2026-09-10\n\nService Address:\nELEANOR JANE SMITH\n742 EVERGREEN TERRACE, APT 4B\nSPRINGFIELD, OR 97477\nUNITED STATES\n\nTotal Amount Due: $142.50\nPayment Status: Paid in Full",
+  "metadata": {
+    "utility_provider": "Metropolitan Electric",
+    "verified_address": true
+  }
+}

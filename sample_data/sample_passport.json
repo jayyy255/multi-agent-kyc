@@ -1,0 +1,11 @@
+{
+  "document_id": "doc-pass-001",
+  "filename": "customer_passport_scan.pdf",
+  "content_type": "application/pdf",
+  "document_type": "passport",
+  "document_text": "PASSPORT / PASSEPORT\nType: P\nCode: USA\nPassport No: P98765432\nSurname: SMITH\nGiven Names: ELEANOR JANE\nNationality: USA\nDate of Birth: 1992-05-14\nSex: F\nPlace of Birth: CALIFORNIA, USA\nDate of Issue: 2020-06-01\nDate of Expiry: 2030-06-01\nAuthority: UNITED STATES DEPARTMENT OF STATE\nP<USASMITH<<ELEANOR<JANE<<<<<<<<<<<<<<<<<<<<<\nP987654320USA9205142F3006015<<<<<<<<<<<<<<04",
+  "metadata": {
+    "uploaded_by": "customer_portal",
+    "scan_resolution_dpi": 300
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "customer_id": "cust-8821",
+  "full_name": "Eleanor Jane Smith",
+  "first_name": "Eleanor",
+  "last_name": "Smith",
+  "date_of_birth": "1992-05-14",
+  "nationality": "USA",
+  "country_of_residence": "USA",
+  "address": "742 Evergreen Terrace, Apt 4B, Springfield, OR 97477, United States",
+  "email": "eleanor.smith@example.com",
+  "phone": "+1-555-0199",
+  "risk_tier": "individual_standard",
+  "status": "pending_verification"
+}

@@ -1,0 +1,11 @@
+{
+  "document_id": "doc-dl-003",
+  "filename": "oregon_drivers_license.jpg",
+  "content_type": "image/jpeg",
+  "document_type": "driving_license",
+  "document_text": "STATE DRIVER LICENSE / PERMIT\nDL No: DL77391024\nEXP: 2029-05-14\nLN: SMITH\nFN: ELEANOR JANE\nDOB: 1992-05-14\nADDR: 742 EVERGREEN TERRACE, APT 4B, SPRINGFIELD, OR 97477\nISS: 2021-05-14\nCLASS: C",
+  "metadata": {
+    "issuing_state": "Oregon",
+    "real_id_compliant": true
+  }
+}

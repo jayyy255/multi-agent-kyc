@@ -1,0 +1,11 @@
+{
+  "document_id": "doc-bank-004",
+  "filename": "first_national_bank_statement_aug.pdf",
+  "content_type": "application/pdf",
+  "document_type": "bank_statement",
+  "document_text": "FIRST NATIONAL BANK OF COMMERCE\nCustomer Account Statement\nAccount Holder: ELEANOR JANE SMITH\nAccount Number: 9812-4412-001\nStatement Period: 2026-08-01 to 2026-08-31\nIssue Date: 2026-09-01\nAddress: 742 EVERGREEN TERRACE, APT 4B, SPRINGFIELD, OR 97477\nClosing Balance: $8,450.25",
+  "metadata": {
+    "bank_name": "First National Bank of Commerce",
+    "account_currency": "USD"
+  }
+}

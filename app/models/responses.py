@@ -1,6 +1,6 @@
 """Pydantic response schemas for all KYC backend endpoints."""
 
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 from pydantic import BaseModel, Field
 from app.models.enums import (
@@ -16,7 +16,7 @@ class HealthResponse(BaseModel):
     """Service health check response."""
 
     status: str = Field("healthy", description="Operational status")
-    timestamp: datetime = Field(default_factory=datetime.utcnow, description="UTC timestamp of the check")
+    timestamp: datetime = Field(default_factory=lambda: datetime.now(timezone.utc), description="UTC timestamp of the check")
     service: str = Field("multi-agent-kyc-backend", description="Service identifier")
 
 

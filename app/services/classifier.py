@@ -120,9 +120,9 @@ class RuleBasedDocumentClassifier(BaseClassifier):
                         matches.extend(found)
                 if matches:
                     matched_keywords[dtype.value] = list(set([m if isinstance(m, str) else m[0] for m in matches]))
-                    # Score proportional to matched patterns
-                    match_ratio = len(matches) / len(patterns)
-                    scores[dtype] += min(0.85, match_ratio * 0.90)
+                    # Score based on unique matched patterns (up to 0.80) + bonus for volume
+                    unique_pattern_hits = len(matched_keywords[dtype.value])
+                    scores[dtype] += min(0.80, (unique_pattern_hits / len(patterns)) * 0.90 + 0.15)
 
         # 2. Evaluate Filename Cues
         filename = (request.filename or "").lower()
@@ -130,7 +130,7 @@ class RuleBasedDocumentClassifier(BaseClassifier):
             for dtype, hints in FILENAME_HINTS.items():
                 for hint in hints:
                     if hint in filename:
-                        scores[dtype] += 0.25
+                        scores[dtype] += 0.20
                         if dtype.value not in matched_keywords:
                             matched_keywords[dtype.value] = []
                         matched_keywords[dtype.value].append(f"filename_hint:{hint}")
